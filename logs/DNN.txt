@@ -1,0 +1,17 @@
+Namespace(batch_size=12, epoch=101, is_drop=False, log_name='DNN', method=0, token_type='ALL')
+C:/Downloads/HARC/data/train2.csv C:/Downloads/HARC/data/test2.csv
+set token: ALL ,batch size: 12
+训练集大小: 3106 测试集大小: 773 , 
+build HRE model
+Traceback (most recent call last):
+  File "C:\Downloads\HARC\run.py", line 67, in <module>
+    token_type = args.token_type,
+  File "C:\Downloads\HARC\train.py", line 64, in __init__
+    self.create(is_show)
+  File "C:\Downloads\HARC\train.py", line 142, in create
+    self.optimizer = torch.optim.Adam(self.model.parameters(), lr=self.lr, betas=(0.5, 0.999))
+  File "C:\ProgramData\Anaconda3\envs\pytorch\lib\site-packages\torch\optim\adam.py", line 137, in __init__
+    super(Adam, self).__init__(params, defaults)
+  File "C:\ProgramData\Anaconda3\envs\pytorch\lib\site-packages\torch\optim\optimizer.py", line 61, in __init__
+    raise ValueError("optimizer got an empty parameter list")
+ValueError: optimizer got an empty parameter list

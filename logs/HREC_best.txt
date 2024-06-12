@@ -1,0 +1,46 @@
+Namespace(batch_size=256, epoch=101, is_drop=False, log_name='HREC_best', method=1, token_type='ALL')
+C:/Downloads/HARC/data/train2.csv C:/Downloads/HARC/data/test2.csv
+set token: ALL ,batch size: 256
+训练集大小: 3106 测试集大小: 773 , 
+80 8
+build HREC model
+Epoch 0/101
+----------
+C:\ProgramData\Anaconda3\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Loss is:0.9345
+Loss is:0.3075
+cost time:0.1167 min, ETA:11.6667
+test: ACC is:0.824219, PRE is:0.587428, Recall is:0.487752, F1 is:0.463659
+Epoch 1/101
+----------
+C:\ProgramData\Anaconda3\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+C:\ProgramData\Anaconda3\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Loss is:0.2758
+Loss is:0.2648
+cost time:0.1167 min, ETA:11.5500
+test: ACC is:0.855469, PRE is:0.759407, Recall is:0.629937, F1 is:0.632672
+Epoch 2/101
+----------
+C:\ProgramData\Anaconda3\envs\pytorch\lib\site-packages\sklearn\metrics\_classification.py:1318: UndefinedMetricWarning: Precision is ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+Loss is:0.1993
+Loss is:0.1471
+cost time:0.1167 min, ETA:11.4333
+test: ACC is:0.932292, PRE is:0.793185, Recall is:0.779258, F1 is:0.781670
+Epoch 3/101
+----------
+Loss is:0.2003
+Loss is:0.0977
+cost time:0.1167 min, ETA:11.3167
+test: ACC is:0.941406, PRE is:0.969194, Recall is:0.822673, F1 is:0.823265
+Epoch 4/101
+----------
+Loss is:0.1683
+Loss is:0.0971
+cost time:0.1167 min, ETA:11.2000
+test: ACC is:0.942708, PRE is:0.970730, Recall is:0.825482, F1 is:0.825401
+Epoch 5/101
+----------

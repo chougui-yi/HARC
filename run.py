@@ -49,8 +49,8 @@ if __name__ == '__main__':
         should_flush=True
     )
     print(args)
-    train_path = r"/T2004100/data/hy/maliciousCode/train2.csv"
-    test_path = r"/T2004100/data/hy/maliciousCode/test2.csv"
+    train_path = r"C:/Downloads/HARC/data/train2.csv"
+    test_path = r"C:/Downloads/HARC/data/test2.csv"
     print( train_path, test_path )
     train_loader, validate_loader = setDataLoader( 
         train_path, 

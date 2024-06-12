@@ -37,7 +37,14 @@ HARC (Hash based Random Compression) is an acronym for a method of sorting malic
 
 #### Run 
 ```shell
-python run.py
+run.sh
 ```
+#### Notes 
+When using this project, please take note of the following:
+
+1. Ensure you have the required Python version installed (e.g., Python 3.7).
+2. Due to GitHub's file size limitations, the `pytorch_model.bin` file in the `./model/BERT/` directory needs to be downloaded separately. You can download it from the following link: https://huggingface.co/mrm8488/codebert-base-finetuned-detect-insecure-code
+
+
 
 >>>>>>> 1bbf1d0 (first commit)
