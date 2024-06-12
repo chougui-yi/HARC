@@ -1,6 +1,4 @@
-<<<<<<< HEAD
-# HARC
-=======
+
 # HARC
 
 HARC (Hash based Random Compression) is an acronym for a method of sorting malicious code families based on hash random compression
@@ -35,11 +33,11 @@ HARC (Hash based Random Compression) is an acronym for a method of sorting malic
     )
 ```
 
-#### Run 
+### Run 
 ```shell
 run.sh
 ```
-#### Notes 
+### Notes 
 When using this project, please take note of the following:
 
 1. Ensure you have the required Python version installed (e.g., Python 3.7).
@@ -47,4 +45,3 @@ When using this project, please take note of the following:
 
 
 
->>>>>>> 1bbf1d0 (first commit)
